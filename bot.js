@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const adminprefix = "$";
-const devs = ['414477438869831682'];
+const adminprefix = "*";
+const devs = ['454705640070447114'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -28,4 +28,4 @@ if (message.content.startsWith(adminprefix + 'st')) {
 });
 
 
-client.login("NDE0NDc3NDM4ODY5ODMxNjgy.Dms66Q.1t5__jNPNSyY42NeLC02KK_Zc4M")
+client.login("NDU0NzA1NjQwMDcwNDQ3MTE0.DmvqzQ.vRvIiehicZmv52oIerd1ypCt10A");
