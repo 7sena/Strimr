@@ -27,5 +27,5 @@ if (message.content.startsWith(adminprefix + 'st')) {
 
 });
 
-
-client.login("NDU0NzA1NjQwMDcwNDQ3MTE0.DmvqzQ.vRvIiehicZmv52oIerd1ypCt10A");
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
